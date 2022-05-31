@@ -8,5 +8,10 @@ class Planet{
 
         earth.revolve();
         mars.revolve();
+
+
+        // javac Planet.java
+        // java Planet
+        
     }
 }
