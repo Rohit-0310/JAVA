@@ -16,6 +16,11 @@ public class MobilePhone {
 	public void addNewContact(Contact contact) {
 		contacts.add(contact);
 	}
+	public void removeContact(int i) {
+		contacts.remove(i);
+		
+	}
+	
 	public String toString() {
 		return String.format("Contact List: [%s]", contacts);
 	}

@@ -16,6 +16,12 @@ public class MobilePhoneRunner {
 		mobilePhone.addNewContact(contact4);
 		
 		System.out.println(mobilePhone);
+		
+		
+		mobilePhone.removeContact(2);
+		
+		
+		System.out.println("After Removeing Contact-> "+mobilePhone);
 
 	}
 
